@@ -11,8 +11,6 @@ client_secret = '715ed7be535b489c9f44e29398a1e7a7'
 redirect_uri = 'http://localhost:8000'
 token = util.prompt_for_user_token(username, scope, client_id, client_secret, redirect_uri)
 sp = spotipy.Spotify(auth=token)
-
-
 ranges = ['short_term', 'medium_term', 'long_term']
 
 for sp_range in ranges:
