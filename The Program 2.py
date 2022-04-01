@@ -24,8 +24,7 @@ for sp_range in ranges:
     print()
     
 #TODO: Covert JSON to dataframe - Monday at the latest
-    pandas.read_json('string/path/file_name', orient) - use this!
-        # Also - use user_get_top_artists - there is genre data in there which you need!
+    # Also - use user_get_top_artists - there is genre data in there which you need!
 #TODO: Add CSV file or other - Monday at the latest
 #TODO: Add basic GUI (Tkinter) - Thursday
 
