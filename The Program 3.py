@@ -51,13 +51,12 @@ list_of_artist_uri = []
 list_of_genres = []
 
 for result in list_of_results:
-    result["album"]
-    this_artists_name = result["items"][0]["name"]
+    #result[""]
+    this_artists_name = result["name"][0]
     list_of_artist_names.append(this_artists_name)
-    this_artists_uri = result["items"][0]["uri"]
+    this_artists_uri = result["uri"][0]
     list_of_artist_uri.append(this_artists_uri)
-    list_of_songs = result["name"]
-    this_artists_genre = result["items"][0]["genres"]
+    this_artists_genre = result["genres"][0]
     list_of_genres.append(this_artists_genre)
 
     all_genres = pd.DataFrame(
@@ -66,6 +65,6 @@ for result in list_of_results:
      'genres': list_of_genres   
     })
 
-all_genres_saved = all_genres.to_csv('top50_songs.csv')
+all_genres_saved = all_genres.to_csv('top50_data.csv')
 
 
