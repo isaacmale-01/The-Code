@@ -31,15 +31,15 @@ class Window(Frame):
         menu.add_cascade(label="Edit", menu=edit)
 
     def showImg(self):
-        load = Image.open("projectlogoupdate2.jpg")
-        resize_image = load.resize((300,300), Image.ANTIALIAS)
-        img = ImageTk.PhotoImage(resize_image)
-        render = ImageTk.PhotoImage(load)
+        logo = Image.open("projectlogoupdate3.jpg")
+        #img = ImageTk.PhotoImage(image)
+        image = logo.resize((550,100), Image.ANTIALIAS)
+        render = ImageTk.PhotoImage(image)        
 
         # labels can be text or images
         img = Label(self, image=render)
         img.image = render
-        img.place(x=40, y=100)
+        img.place(x=130, y=100)
 
     def showText(self):
         text = Label(self, text="Hey! Welcome to Isaac Male's Third Year Project!")
@@ -47,9 +47,9 @@ class Window(Frame):
 
 
         startButton = Button(self, text="Let's Get Started!")        
-        startButton.place(x=340, y=350)
+        startButton.place(x=350, y=250)
         quitButton = Button(self, text="Quit", command=self.client_exit)        
-        quitButton.place(x=370, y=400)
+        quitButton.place(x=380, y=300)
 
         self.configure(bg='purple')
 
@@ -65,7 +65,6 @@ app = Window(root)
 
 root.mainloop()
 
-#TODO - Work some more on the photo - how and why does the image appear like that?
 #TODO - How can we make the text appear instead of it coming up through the menu?
 #TODO - Make the labels bigger?
 #TODO - Add event so that the start button runs the new code
