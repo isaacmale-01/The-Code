@@ -3,91 +3,11 @@
         "items": [
             {
                 "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/2TM0qnbJH4QPhGMCdPt7fH"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 625729
-                },
-                "genres": [
-                    "pop punk",
-                    "rock",
-                    "uk pop punk"
-                ],
-                "href": "https://api.spotify.com/v1/artists/2TM0qnbJH4QPhGMCdPt7fH",
-                "id": "2TM0qnbJH4QPhGMCdPt7fH",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb8104d5f1d3fcb9280d247e0b",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab676161000051748104d5f1d3fcb9280d247e0b",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f1788104d5f1d3fcb9280d247e0b",
-                        "width": 160
-                    }
-                ],
-                "name": "Neck Deep",
-                "popularity": 69,
-                "type": "artist",
-                "uri": "spotify:artist:2TM0qnbJH4QPhGMCdPt7fH"
-            },
-            {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/5fMUXHkw8R8eOP2RNVYEZX"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 2459331
-                },
-                "genres": [
-                    "dance pop",
-                    "edm",
-                    "electro house",
-                    "house",
-                    "moombahton",
-                    "ninja",
-                    "pop",
-                    "pop dance",
-                    "tropical house"
-                ],
-                "href": "https://api.spotify.com/v1/artists/5fMUXHkw8R8eOP2RNVYEZX",
-                "id": "5fMUXHkw8R8eOP2RNVYEZX",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5ebee376ee0e88042b34dee6e62",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab67616100005174ee376ee0e88042b34dee6e62",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f178ee376ee0e88042b34dee6e62",
-                        "width": 160
-                    }
-                ],
-                "name": "Diplo",
-                "popularity": 84,
-                "type": "artist",
-                "uri": "spotify:artist:5fMUXHkw8R8eOP2RNVYEZX"
-            },
-            {
-                "external_urls": {
                     "spotify": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ"
                 },
                 "followers": {
                     "href": null,
-                    "total": 43308178
+                    "total": 43396596
                 },
                 "genres": [
                     "canadian contemporary r&b",
@@ -124,7 +44,7 @@
                 },
                 "followers": {
                     "href": null,
-                    "total": 2010237
+                    "total": 2011147
                 },
                 "genres": [
                     "edm",
@@ -158,123 +78,40 @@
             },
             {
                 "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/5cj0lLjcoR7YOSnhnX0Po5"
+                    "spotify": "https://open.spotify.com/artist/2TM0qnbJH4QPhGMCdPt7fH"
                 },
                 "followers": {
                     "href": null,
-                    "total": 17232250
+                    "total": 627018
                 },
                 "genres": [
-                    "dance pop",
-                    "pop"
+                    "pop punk",
+                    "rock",
+                    "uk pop punk"
                 ],
-                "href": "https://api.spotify.com/v1/artists/5cj0lLjcoR7YOSnhnX0Po5",
-                "id": "5cj0lLjcoR7YOSnhnX0Po5",
+                "href": "https://api.spotify.com/v1/artists/2TM0qnbJH4QPhGMCdPt7fH",
+                "id": "2TM0qnbJH4QPhGMCdPt7fH",
                 "images": [
                     {
                         "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb727a2ac15afe659be999beba",
+                        "url": "https://i.scdn.co/image/ab6761610000e5eb8104d5f1d3fcb9280d247e0b",
                         "width": 640
                     },
                     {
                         "height": 320,
-                        "url": "https://i.scdn.co/image/ab67616100005174727a2ac15afe659be999beba",
+                        "url": "https://i.scdn.co/image/ab676161000051748104d5f1d3fcb9280d247e0b",
                         "width": 320
                     },
                     {
                         "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f178727a2ac15afe659be999beba",
+                        "url": "https://i.scdn.co/image/ab6761610000f1788104d5f1d3fcb9280d247e0b",
                         "width": 160
                     }
                 ],
-                "name": "Doja Cat",
-                "popularity": 94,
+                "name": "Neck Deep",
+                "popularity": 69,
                 "type": "artist",
-                "uri": "spotify:artist:5cj0lLjcoR7YOSnhnX0Po5"
-            },
-            {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/25uiPmTg16RbhZWAqwLBy5"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 2598612
-                },
-                "genres": [
-                    "art pop",
-                    "candy pop",
-                    "dance pop",
-                    "electropop",
-                    "metropopolis",
-                    "pop",
-                    "uk pop"
-                ],
-                "href": "https://api.spotify.com/v1/artists/25uiPmTg16RbhZWAqwLBy5",
-                "id": "25uiPmTg16RbhZWAqwLBy5",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb576cb43281160e345f728b71",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab67616100005174576cb43281160e345f728b71",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f178576cb43281160e345f728b71",
-                        "width": 160
-                    }
-                ],
-                "name": "Charli XCX",
-                "popularity": 84,
-                "type": "artist",
-                "uri": "spotify:artist:25uiPmTg16RbhZWAqwLBy5"
-            },
-            {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/7CajNmpbOovFoOoasH2HaY"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 22611913
-                },
-                "genres": [
-                    "dance pop",
-                    "edm",
-                    "electro house",
-                    "house",
-                    "pop",
-                    "pop dance",
-                    "pop rap",
-                    "progressive house",
-                    "uk dance"
-                ],
-                "href": "https://api.spotify.com/v1/artists/7CajNmpbOovFoOoasH2HaY",
-                "id": "7CajNmpbOovFoOoasH2HaY",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb578905d5539cff25568dc097",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab67616100005174578905d5539cff25568dc097",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f178578905d5539cff25568dc097",
-                        "width": 160
-                    }
-                ],
-                "name": "Calvin Harris",
-                "popularity": 87,
-                "type": "artist",
-                "uri": "spotify:artist:7CajNmpbOovFoOoasH2HaY"
+                "uri": "spotify:artist:2TM0qnbJH4QPhGMCdPt7fH"
             },
             {
                 "external_urls": {
@@ -282,7 +119,7 @@
                 },
                 "followers": {
                     "href": null,
-                    "total": 4338994
+                    "total": 4345125
                 },
                 "genres": [
                     "melodic metalcore",
@@ -320,7 +157,7 @@
                 },
                 "followers": {
                     "href": null,
-                    "total": 15036
+                    "total": 15103
                 },
                 "genres": [
                     "scottish techno"
@@ -355,7 +192,7 @@
                 },
                 "followers": {
                     "href": null,
-                    "total": 1982394
+                    "total": 2000678
                 },
                 "genres": [
                     "uk hip hop"
@@ -383,13 +220,49 @@
                 "popularity": 84,
                 "type": "artist",
                 "uri": "spotify:artist:6Ip8FS7vWT1uKkJSweANQK"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/5cj0lLjcoR7YOSnhnX0Po5"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 17331720
+                },
+                "genres": [
+                    "dance pop",
+                    "pop"
+                ],
+                "href": "https://api.spotify.com/v1/artists/5cj0lLjcoR7YOSnhnX0Po5",
+                "id": "5cj0lLjcoR7YOSnhnX0Po5",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab6761610000e5eb727a2ac15afe659be999beba",
+                        "width": 640
+                    },
+                    {
+                        "height": 320,
+                        "url": "https://i.scdn.co/image/ab67616100005174727a2ac15afe659be999beba",
+                        "width": 320
+                    },
+                    {
+                        "height": 160,
+                        "url": "https://i.scdn.co/image/ab6761610000f178727a2ac15afe659be999beba",
+                        "width": 160
+                    }
+                ],
+                "name": "Doja Cat",
+                "popularity": 94,
+                "type": "artist",
+                "uri": "spotify:artist:5cj0lLjcoR7YOSnhnX0Po5"
             }
         ],
-        "total": 10,
+        "total": 7,
         "limit": 50,
         "offset": 0,
-        "href": "https://api.spotify.com/v1/me/top/artists?limit=50&offset=0&time_range=short_term",
         "previous": null,
+        "href": "https://api.spotify.com/v1/me/top/artists?limit=50&offset=0&time_range=short_term",
         "next": null
     }
 ]
