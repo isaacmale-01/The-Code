@@ -1,8 +1,8 @@
 ,artist,artist_uri,genres
 0,T,s,canadian contemporary r&b
-1,D,s,edm
-2,N,s,pop punk
-3,B,s,melodic metalcore
-4,E,s,scottish techno
+1,E,s,scottish techno
+2,D,s,edm
+3,M,s,pop
+4,B,s,melodic metalcore
 5,D,s,uk hip hop
 6,D,s,dance pop

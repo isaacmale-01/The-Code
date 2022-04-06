@@ -7,7 +7,7 @@
                 },
                 "followers": {
                     "href": null,
-                    "total": 43396596
+                    "total": 43426872
                 },
                 "genres": [
                     "canadian contemporary r&b",
@@ -40,11 +40,46 @@
             },
             {
                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4d2NUjh9ZrzG1ZZdhpSDKH"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 15136
+                },
+                "genres": [
+                    "scottish techno"
+                ],
+                "href": "https://api.spotify.com/v1/artists/4d2NUjh9ZrzG1ZZdhpSDKH",
+                "id": "4d2NUjh9ZrzG1ZZdhpSDKH",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab6761610000e5ebcd82dc7bd1ecb30456930e8e",
+                        "width": 640
+                    },
+                    {
+                        "height": 320,
+                        "url": "https://i.scdn.co/image/ab67616100005174cd82dc7bd1ecb30456930e8e",
+                        "width": 320
+                    },
+                    {
+                        "height": 160,
+                        "url": "https://i.scdn.co/image/ab6761610000f178cd82dc7bd1ecb30456930e8e",
+                        "width": 160
+                    }
+                ],
+                "name": "Ewan McVicar",
+                "popularity": 60,
+                "type": "artist",
+                "uri": "spotify:artist:4d2NUjh9ZrzG1ZZdhpSDKH"
+            },
+            {
+                "external_urls": {
                     "spotify": "https://open.spotify.com/artist/6nS5roXSAGhTGr34W6n7Et"
                 },
                 "followers": {
                     "href": null,
-                    "total": 2011147
+                    "total": 2011497
                 },
                 "genres": [
                     "edm",
@@ -78,40 +113,40 @@
             },
             {
                 "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/2TM0qnbJH4QPhGMCdPt7fH"
+                    "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
                 },
                 "followers": {
                     "href": null,
-                    "total": 627018
+                    "total": 22303000
                 },
                 "genres": [
-                    "pop punk",
-                    "rock",
-                    "uk pop punk"
+                    "pop",
+                    "r&b",
+                    "soul"
                 ],
-                "href": "https://api.spotify.com/v1/artists/2TM0qnbJH4QPhGMCdPt7fH",
-                "id": "2TM0qnbJH4QPhGMCdPt7fH",
+                "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+                "id": "3fMbdgg4jU18AjLCKBhRSm",
                 "images": [
                     {
                         "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb8104d5f1d3fcb9280d247e0b",
+                        "url": "https://i.scdn.co/image/ab6761610000e5eba2a0b9e3448c1e702de9dc90",
                         "width": 640
                     },
                     {
                         "height": 320,
-                        "url": "https://i.scdn.co/image/ab676161000051748104d5f1d3fcb9280d247e0b",
+                        "url": "https://i.scdn.co/image/ab67616100005174a2a0b9e3448c1e702de9dc90",
                         "width": 320
                     },
                     {
                         "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f1788104d5f1d3fcb9280d247e0b",
+                        "url": "https://i.scdn.co/image/ab6761610000f178a2a0b9e3448c1e702de9dc90",
                         "width": 160
                     }
                 ],
-                "name": "Neck Deep",
-                "popularity": 69,
+                "name": "Michael Jackson",
+                "popularity": 85,
                 "type": "artist",
-                "uri": "spotify:artist:2TM0qnbJH4QPhGMCdPt7fH"
+                "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
             },
             {
                 "external_urls": {
@@ -119,7 +154,7 @@
                 },
                 "followers": {
                     "href": null,
-                    "total": 4345125
+                    "total": 4346519
                 },
                 "genres": [
                     "melodic metalcore",
@@ -153,46 +188,11 @@
             },
             {
                 "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/4d2NUjh9ZrzG1ZZdhpSDKH"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 15103
-                },
-                "genres": [
-                    "scottish techno"
-                ],
-                "href": "https://api.spotify.com/v1/artists/4d2NUjh9ZrzG1ZZdhpSDKH",
-                "id": "4d2NUjh9ZrzG1ZZdhpSDKH",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5ebcd82dc7bd1ecb30456930e8e",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab67616100005174cd82dc7bd1ecb30456930e8e",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f178cd82dc7bd1ecb30456930e8e",
-                        "width": 160
-                    }
-                ],
-                "name": "Ewan McVicar",
-                "popularity": 60,
-                "type": "artist",
-                "uri": "spotify:artist:4d2NUjh9ZrzG1ZZdhpSDKH"
-            },
-            {
-                "external_urls": {
                     "spotify": "https://open.spotify.com/artist/6Ip8FS7vWT1uKkJSweANQK"
                 },
                 "followers": {
                     "href": null,
-                    "total": 2000678
+                    "total": 2005120
                 },
                 "genres": [
                     "uk hip hop"
@@ -227,7 +227,7 @@
                 },
                 "followers": {
                     "href": null,
-                    "total": 17331720
+                    "total": 17364649
                 },
                 "genres": [
                     "dance pop",
