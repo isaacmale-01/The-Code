@@ -4,7 +4,8 @@ import os
 import json
 from IPython.display import display
 import pandas as pd
-import matplotlib.pyplot as plt
+import plotly.graph_objs as go
+import matplotlib.pyplot as plot
 import seaborn as sb
 import spotipy
 import spotipy.util as util
@@ -73,7 +74,29 @@ df1 = pd.DataFrame(list, columns = ('artist', 'genres'))
 pd.set_option("display.max_rows", None, "display.max_columns", None)
 display(all_genres)
 
-
 all_genres_saved = all_genres.to_csv('top50_data.csv')
 
+genres = []
+for row in df1['genres']:
+    for r in row(all_genres):
+        genres.append(r)
+genres = pd.Series(genres)
 
+# Switching in between different tutorials... you know what one needs - but you need to switch between the two!
+
+top_genres = genres.value_counts().nlargest(20)
+fig = go.Figure([go.Bar(x=top_genres.values, 
+                        y=top_genres.index,
+                        orientation='h',
+                        text=top_genres.values, 
+                        textposition='outside',
+                        marker_color='rebeccapurple')])
+fig.update_layout(title_text='Most Frequent Music Genres Found on My Spotify Top 100',
+                  yaxis=dict(autorange="reversed")
+)
+fig.show()
+fig.write_image("pics/most-genres.png",format="png", width=1000, height=600, scale=2)
+
+#df = pd.read_csv('top50_data.csv')
+#bargraph = df.plot.bar(x = 'genres')
+#plot.show(block=True);
