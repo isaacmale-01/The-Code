@@ -15,7 +15,7 @@ class Window(Frame):
 
 
     def init_window(self):
-
+    
         self.master.title("The Sound of The Students")       
         self.pack(fill=BOTH, expand=1)
 

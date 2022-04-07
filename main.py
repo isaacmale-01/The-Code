@@ -5,10 +5,7 @@ import json
 from IPython.display import display
 import numpy as np
 import pandas as pd
-import plotly.graph_objs as go
-import matplotlib.pyplot as plt
-import matplotlib.pyplot as plot 
-import seaborn as sb
+import matplotlib.pyplot as plt 
 import spotipy
 import spotipy.util as util
 from spotipy.oauth2 import SpotifyClientCredentials
@@ -109,4 +106,4 @@ plt.show()
 # A series of windows to show the user what happens once the click the button (it's a madness when they do!)
 # Move the file about top50data and rename it... something something outside the folder something
 
-#GET BREXIT DONE
+#"If you don't need it, get rid of it" - Camilla Jones 2022
