@@ -77,5 +77,4 @@ all_genres_saved = all_genres.to_csv('top50_data.csv')
 
 df = pd.read_csv('top50_data.csv')
 bargraph = df.plot.bar(x = 'genres')
-genres = pd.Series(genres)
 plot.show(block=True);
