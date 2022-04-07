@@ -3,6 +3,7 @@
 import os
 import json
 from IPython.display import display
+import numpy as np
 import pandas as pd
 import plotly.graph_objs as go
 import matplotlib.pyplot as plt
@@ -75,6 +76,37 @@ display(all_genres)
 
 all_genres_saved = all_genres.to_csv('top50_data.csv')
 
-df = pd.read_csv('top50_data.csv')
-bargraph = df.plot.bar(x = 'genres')
-plot.show(block=True);
+df = pd.read_csv('top50_data.csv', encoding='latin-1')
+df.head()
+
+df['genres']=df['genres'].astype(str)
+df["genres"][df["genres"] == "[]"] = np.nan
+df["genres"] = df["genres"].fillna(0)
+#here we get rid of useless symbols to be able to separate genres
+
+df.genres=df.genres.str.replace("[", "")
+df.genres=df.genres.str.replace("]", "")
+df.genres=df.genres.str.replace("'", "")
+#now we devide genre strings by comma
+
+df["genres"] = df["genres"].str.split(",")
+
+df=df.explode('genres')
+
+df
+
+fig = plt.figure(figsize = (10, 10))
+ax = fig.subplots()
+df.genres.value_counts()[:30].plot(ax=ax, kind = "pie")
+ax.set_ylabel("")
+ax.set_title("What are your genres like? This should be interesting...")
+plt.show()
+
+#bargraph = df.plot.bar(x = 'genres')
+#plot.show(block=True);
+
+#TODO - How to get the DataFrame table to appear in a separate window instead of in the terminal?
+# A series of windows to show the user what happens once the click the button (it's a madness when they do!)
+# Move the file about top50data and rename it... something something outside the folder something
+
+#GET BREXIT DONE
