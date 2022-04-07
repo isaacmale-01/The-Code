@@ -68,10 +68,10 @@ for result in list_of_results:
     )
 
 
-# An attempt to visualise the Pandas DataFrame - but the table! She doesn't want to appear!
-#df1 = pd.DataFrame(list, columns = ('artist', 'genres'))
-#pd.set_option("display.max_rows", None, "display.max_columns", None)
-#display(df1)
+# An attempt to visualise the Pandas DataFrame - but the table! She finally wanted to appear!
+df1 = pd.DataFrame(list, columns = ('artist', 'genres'))
+pd.set_option("display.max_rows", None, "display.max_columns", None)
+display(all_genres)
 
 
 all_genres_saved = all_genres.to_csv('top50_data.csv')
