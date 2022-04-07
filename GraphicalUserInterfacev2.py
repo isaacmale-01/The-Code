@@ -78,7 +78,6 @@ root.mainloop()
 
 #TODO - How can we make the text appear instead of it coming up through the menu?
 #TODO - Make the labels bigger?
-#TODO - Add event so that the start button runs the new code
 #TODO - Fiddle with the other code such that visualisations are created for the user and the data is appended to a newer, bigger .csv file
 
 #You've got this! Come on! :D

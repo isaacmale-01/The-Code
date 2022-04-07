@@ -1,8 +1,8 @@
-,artist,artist_uri,genres
-0,T,s,canadian contemporary r&b
-1,E,s,scottish techno
-2,D,s,edm
-3,M,s,pop
-4,B,s,melodic metalcore
-5,D,s,uk hip hop
-6,D,s,dance pop
+,artist,genres
+0,The Weeknd,"['canadian contemporary r&b', 'canadian pop', 'pop']"
+1,Ewan McVicar,['scottish techno']
+2,Disclosure,"['edm', 'house', 'pop', 'uk dance']"
+3,Michael Jackson,"['pop', 'r&b', 'soul']"
+4,Bring Me The Horizon,"['melodic metalcore', 'metalcore', 'rock', 'uk metalcore']"
+5,Dave,['uk hip hop']
+6,Doja Cat,"['dance pop', 'pop']"

@@ -2,6 +2,7 @@
 
 import os
 import json
+from IPython.display import display
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sb
@@ -51,19 +52,27 @@ list_of_artist_uri = []
 list_of_genres = []
 
 for result in list_of_results:
-    #result[""]
+    result = pd.json_normalize(result)
     this_artists_name = result["name"][0]
     list_of_artist_names.append(this_artists_name)
-    this_artists_uri = result["uri"][0]
-    list_of_artist_uri.append(this_artists_uri)
+    #this_artists_uri = result["uri"][0]
+    #list_of_artist_uri.append(this_artists_uri)
     this_artists_genre = result["genres"][0]
     list_of_genres.append(this_artists_genre)
 
     all_genres = pd.DataFrame(
     {'artist': list_of_artist_names,
-     'artist_uri': list_of_artist_uri,
-     'genres': list_of_genres   
-    })
+     #'artist_uri': list_of_artist_uri,
+     'genres': list_of_genres
+    }
+    )
+
+
+# An attempt to visualise the Pandas DataFrame - but the table! She doesn't want to appear!
+#df1 = pd.DataFrame(list, columns = ('artist', 'genres'))
+#pd.set_option("display.max_rows", None, "display.max_columns", None)
+#display(df1)
+
 
 all_genres_saved = all_genres.to_csv('top50_data.csv')
 
