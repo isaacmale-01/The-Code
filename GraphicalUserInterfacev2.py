@@ -1,5 +1,6 @@
 from tkinter import *
 import tkinter
+from tkinter import messagebox
 import os
 import sys
 from PIL import Image, ImageTk
@@ -25,16 +26,15 @@ class Window(Frame):
         file = Menu(menu)      
         file.add_command(label="Exit", command=self.client_exit)        
         menu.add_cascade(label="File", menu=file)        
-        edit = Menu(menu)     
+        credits = Menu(menu)     
 
-        file.add_command(label="Show Img", command=self.showImg)
-        file.add_command(label="Show Text", command=self.showText)
+        
+        credits.add_command(label="By Isaac Male, for the Third Year Double Project 2022") 
+        credits.add_command(label="Supervisor: Ed De Quincey")     
+        credits.add_command(label="With Thanks To: Jason Hughes and Camilla Jones")     
+        menu.add_cascade(label="Credits", menu=credits)
 
-
-        edit.add_command(label="Undo")       
-        menu.add_cascade(label="Edit", menu=edit)
-
-    def showImg(self):
+    
         logo = Image.open("projectlogoupdate3.jpg")
         #img = ImageTk.PhotoImage(image)
         image = logo.resize((550,70), Image.ANTIALIAS)
@@ -46,11 +46,15 @@ class Window(Frame):
         img.place(x=130, y=100)
 
 
-    def showText(self):
+   
         text = Label(self, text="Hey! Welcome to Isaac Male's Third Year Project!", font=("Helvetica", 25), bg= 'purple', foreground= 'green')
         text.pack()
 
         def run():
+            messagebox.showinfo('What Happens Next','This program is firstly going to show you a graph of your top genres...')
+            messagebox.showinfo('What Happens Next','...before showing you your top artists, but hold on - it may be different to what you are expecting!')
+            messagebox.showinfo('What Happens After That','Once you have taken a look at the funky visuals, your top artists and genres will then be recorded anonymously and used as part of the wider project into what music Keele Students like.')
+            messagebox.showinfo('And Finally','For now though, enjoy the visuals - and from me, Isaac Male - thank you very much for taking part in The Sound of The Students!')
             os.system('main.py')
 
 
@@ -62,7 +66,6 @@ class Window(Frame):
 
         self.configure(bg='purple')
 
-    
 
     def client_exit(self):
         exit()
@@ -76,8 +79,7 @@ app = Window(root)
 
 root.mainloop()
 
-#TODO - How can we make the text appear instead of it coming up through the menu?
-#TODO - Make the labels bigger?
-#TODO - Fiddle with the other code such that visualisations are created for the user and the data is appended to a newer, bigger .csv file
+
+#TODO - Turn the GUI into an EXE file (when the entire program is done!)
 
 #You've got this! Come on! :D

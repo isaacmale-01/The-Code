@@ -2,10 +2,12 @@
 
 import os
 import json
+import codecs
 from IPython.display import display
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plot 
 import spotipy
 import spotipy.util as util
 from spotipy.oauth2 import SpotifyClientCredentials
@@ -75,6 +77,7 @@ all_genres_saved = all_genres.to_csv('top50_data.csv')
 
 df = pd.read_csv('top50_data.csv', encoding='latin-1')
 df.head()
+df.to_csv('alltheartistsandgenres.csv', mode='a', index='false', header='False')
 
 df['genres']=df['genres'].astype(str)
 df["genres"][df["genres"] == "[]"] = np.nan
@@ -99,11 +102,11 @@ ax.set_ylabel("")
 ax.set_title("What are your genres like? This should be interesting...")
 plt.show()
 
-#bargraph = df.plot.bar(x = 'genres')
-#plot.show(block=True);
+bargraph = df.plot.bar(x = 'artist', title='Bar Graph to Show Top Artists - use the slider function at the bottom (set bottom to 0.4) to see full listing of artist names')
+plot.show(block=True);
 
-#TODO - How to get the DataFrame table to appear in a separate window instead of in the terminal?
-# A series of windows to show the user what happens once the click the button (it's a madness when they do!)
+#TODO - How to get the DataFrame table to appear in a separate window instead of in the terminal? - fixed by having the artists appear separate to the genres
 # Move the file about top50data and rename it... something something outside the folder something
+
 
 #"If you don't need it, get rid of it" - Camilla Jones 2022

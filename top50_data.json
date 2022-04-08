@@ -7,7 +7,7 @@
                 },
                 "followers": {
                     "href": null,
-                    "total": 43456475
+                    "total": 43486495
                 },
                 "genres": [
                     "canadian contemporary r&b",
@@ -40,46 +40,11 @@
             },
             {
                 "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/4d2NUjh9ZrzG1ZZdhpSDKH"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 15163
-                },
-                "genres": [
-                    "scottish techno"
-                ],
-                "href": "https://api.spotify.com/v1/artists/4d2NUjh9ZrzG1ZZdhpSDKH",
-                "id": "4d2NUjh9ZrzG1ZZdhpSDKH",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5ebcd82dc7bd1ecb30456930e8e",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab67616100005174cd82dc7bd1ecb30456930e8e",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f178cd82dc7bd1ecb30456930e8e",
-                        "width": 160
-                    }
-                ],
-                "name": "Ewan McVicar",
-                "popularity": 60,
-                "type": "artist",
-                "uri": "spotify:artist:4d2NUjh9ZrzG1ZZdhpSDKH"
-            },
-            {
-                "external_urls": {
                     "spotify": "https://open.spotify.com/artist/6nS5roXSAGhTGr34W6n7Et"
                 },
                 "followers": {
                     "href": null,
-                    "total": 2011821
+                    "total": 2012180
                 },
                 "genres": [
                     "edm",
@@ -113,11 +78,46 @@
             },
             {
                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/4d2NUjh9ZrzG1ZZdhpSDKH"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 15188
+                },
+                "genres": [
+                    "scottish techno"
+                ],
+                "href": "https://api.spotify.com/v1/artists/4d2NUjh9ZrzG1ZZdhpSDKH",
+                "id": "4d2NUjh9ZrzG1ZZdhpSDKH",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab6761610000e5ebcd82dc7bd1ecb30456930e8e",
+                        "width": 640
+                    },
+                    {
+                        "height": 320,
+                        "url": "https://i.scdn.co/image/ab67616100005174cd82dc7bd1ecb30456930e8e",
+                        "width": 320
+                    },
+                    {
+                        "height": 160,
+                        "url": "https://i.scdn.co/image/ab6761610000f178cd82dc7bd1ecb30456930e8e",
+                        "width": 160
+                    }
+                ],
+                "name": "Ewan McVicar",
+                "popularity": 60,
+                "type": "artist",
+                "uri": "spotify:artist:4d2NUjh9ZrzG1ZZdhpSDKH"
+            },
+            {
+                "external_urls": {
                     "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
                 },
                 "followers": {
                     "href": null,
-                    "total": 22313601
+                    "total": 22323672
                 },
                 "genres": [
                     "pop",
@@ -154,7 +154,7 @@
                 },
                 "followers": {
                     "href": null,
-                    "total": 4347884
+                    "total": 4349286
                 },
                 "genres": [
                     "melodic metalcore",
@@ -188,46 +188,11 @@
             },
             {
                 "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/6Ip8FS7vWT1uKkJSweANQK"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 2009488
-                },
-                "genres": [
-                    "uk hip hop"
-                ],
-                "href": "https://api.spotify.com/v1/artists/6Ip8FS7vWT1uKkJSweANQK",
-                "id": "6Ip8FS7vWT1uKkJSweANQK",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb76d47d16d18eb30413469512",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab6761610000517476d47d16d18eb30413469512",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f17876d47d16d18eb30413469512",
-                        "width": 160
-                    }
-                ],
-                "name": "Dave",
-                "popularity": 84,
-                "type": "artist",
-                "uri": "spotify:artist:6Ip8FS7vWT1uKkJSweANQK"
-            },
-            {
-                "external_urls": {
                     "spotify": "https://open.spotify.com/artist/5cj0lLjcoR7YOSnhnX0Po5"
                 },
                 "followers": {
                     "href": null,
-                    "total": 17396347
+                    "total": 17427887
                 },
                 "genres": [
                     "dance pop",
@@ -256,6 +221,41 @@
                 "popularity": 94,
                 "type": "artist",
                 "uri": "spotify:artist:5cj0lLjcoR7YOSnhnX0Po5"
+            },
+            {
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/6Ip8FS7vWT1uKkJSweANQK"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 2013901
+                },
+                "genres": [
+                    "uk hip hop"
+                ],
+                "href": "https://api.spotify.com/v1/artists/6Ip8FS7vWT1uKkJSweANQK",
+                "id": "6Ip8FS7vWT1uKkJSweANQK",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab6761610000e5eb76d47d16d18eb30413469512",
+                        "width": 640
+                    },
+                    {
+                        "height": 320,
+                        "url": "https://i.scdn.co/image/ab6761610000517476d47d16d18eb30413469512",
+                        "width": 320
+                    },
+                    {
+                        "height": 160,
+                        "url": "https://i.scdn.co/image/ab6761610000f17876d47d16d18eb30413469512",
+                        "width": 160
+                    }
+                ],
+                "name": "Dave",
+                "popularity": 84,
+                "type": "artist",
+                "uri": "spotify:artist:6Ip8FS7vWT1uKkJSweANQK"
             }
         ],
         "total": 7,
