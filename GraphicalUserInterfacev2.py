@@ -79,7 +79,4 @@ app = Window(root)
 
 root.mainloop()
 
-
-#TODO - Turn the GUI into an EXE file (when the entire program is done!)
-
 #You've got this! Come on! :D
