@@ -7,7 +7,7 @@
                 },
                 "followers": {
                     "href": null,
-                    "total": 43486495
+                    "total": 43517807
                 },
                 "genres": [
                     "canadian contemporary r&b",
@@ -44,7 +44,7 @@
                 },
                 "followers": {
                     "href": null,
-                    "total": 2012180
+                    "total": 2012551
                 },
                 "genres": [
                     "edm",
@@ -82,9 +82,10 @@
                 },
                 "followers": {
                     "href": null,
-                    "total": 15188
+                    "total": 15214
                 },
                 "genres": [
+                    "house",
                     "scottish techno"
                 ],
                 "href": "https://api.spotify.com/v1/artists/4d2NUjh9ZrzG1ZZdhpSDKH",
@@ -117,7 +118,7 @@
                 },
                 "followers": {
                     "href": null,
-                    "total": 22323672
+                    "total": 22334493
                 },
                 "genres": [
                     "pop",
@@ -154,7 +155,7 @@
                 },
                 "followers": {
                     "href": null,
-                    "total": 4349286
+                    "total": 4350707
                 },
                 "genres": [
                     "melodic metalcore",
@@ -182,7 +183,7 @@
                     }
                 ],
                 "name": "Bring Me The Horizon",
-                "popularity": 82,
+                "popularity": 83,
                 "type": "artist",
                 "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
             },
@@ -192,7 +193,7 @@
                 },
                 "followers": {
                     "href": null,
-                    "total": 17427887
+                    "total": 17460779
                 },
                 "genres": [
                     "dance pop",
@@ -228,7 +229,7 @@
                 },
                 "followers": {
                     "href": null,
-                    "total": 2013901
+                    "total": 2018586
                 },
                 "genres": [
                     "uk hip hop"
@@ -261,8 +262,8 @@
         "total": 7,
         "limit": 50,
         "offset": 0,
-        "previous": null,
         "href": "https://api.spotify.com/v1/me/top/artists?limit=50&offset=0&time_range=short_term",
+        "previous": null,
         "next": null
     }
 ]
