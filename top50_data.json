@@ -7,7 +7,7 @@
                 },
                 "followers": {
                     "href": null,
-                    "total": 43517807
+                    "total": 43615082
                 },
                 "genres": [
                     "canadian contemporary r&b",
@@ -44,7 +44,7 @@
                 },
                 "followers": {
                     "href": null,
-                    "total": 2012551
+                    "total": 2013587
                 },
                 "genres": [
                     "edm",
@@ -82,7 +82,7 @@
                 },
                 "followers": {
                     "href": null,
-                    "total": 15214
+                    "total": 15298
                 },
                 "genres": [
                     "house",
@@ -114,11 +114,48 @@
             },
             {
                 "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/2a0uxJgbvvIRI4GX8pYfcr"
+                },
+                "followers": {
+                    "href": null,
+                    "total": 883950
+                },
+                "genres": [
+                    "afroswing",
+                    "grime",
+                    "uk hip hop"
+                ],
+                "href": "https://api.spotify.com/v1/artists/2a0uxJgbvvIRI4GX8pYfcr",
+                "id": "2a0uxJgbvvIRI4GX8pYfcr",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/ab6761610000e5ebf47531be2cd6117f18afb3e3",
+                        "width": 640
+                    },
+                    {
+                        "height": 320,
+                        "url": "https://i.scdn.co/image/ab67616100005174f47531be2cd6117f18afb3e3",
+                        "width": 320
+                    },
+                    {
+                        "height": 160,
+                        "url": "https://i.scdn.co/image/ab6761610000f178f47531be2cd6117f18afb3e3",
+                        "width": 160
+                    }
+                ],
+                "name": "J Hus",
+                "popularity": 69,
+                "type": "artist",
+                "uri": "spotify:artist:2a0uxJgbvvIRI4GX8pYfcr"
+            },
+            {
+                "external_urls": {
                     "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
                 },
                 "followers": {
                     "href": null,
-                    "total": 22334493
+                    "total": 22369805
                 },
                 "genres": [
                     "pop",
@@ -155,7 +192,7 @@
                 },
                 "followers": {
                     "href": null,
-                    "total": 4350707
+                    "total": 4354952
                 },
                 "genres": [
                     "melodic metalcore",
@@ -183,87 +220,16 @@
                     }
                 ],
                 "name": "Bring Me The Horizon",
-                "popularity": 83,
+                "popularity": 82,
                 "type": "artist",
                 "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
-            },
-            {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/5cj0lLjcoR7YOSnhnX0Po5"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 17460779
-                },
-                "genres": [
-                    "dance pop",
-                    "pop"
-                ],
-                "href": "https://api.spotify.com/v1/artists/5cj0lLjcoR7YOSnhnX0Po5",
-                "id": "5cj0lLjcoR7YOSnhnX0Po5",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb727a2ac15afe659be999beba",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab67616100005174727a2ac15afe659be999beba",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f178727a2ac15afe659be999beba",
-                        "width": 160
-                    }
-                ],
-                "name": "Doja Cat",
-                "popularity": 94,
-                "type": "artist",
-                "uri": "spotify:artist:5cj0lLjcoR7YOSnhnX0Po5"
-            },
-            {
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/artist/6Ip8FS7vWT1uKkJSweANQK"
-                },
-                "followers": {
-                    "href": null,
-                    "total": 2018586
-                },
-                "genres": [
-                    "uk hip hop"
-                ],
-                "href": "https://api.spotify.com/v1/artists/6Ip8FS7vWT1uKkJSweANQK",
-                "id": "6Ip8FS7vWT1uKkJSweANQK",
-                "images": [
-                    {
-                        "height": 640,
-                        "url": "https://i.scdn.co/image/ab6761610000e5eb76d47d16d18eb30413469512",
-                        "width": 640
-                    },
-                    {
-                        "height": 320,
-                        "url": "https://i.scdn.co/image/ab6761610000517476d47d16d18eb30413469512",
-                        "width": 320
-                    },
-                    {
-                        "height": 160,
-                        "url": "https://i.scdn.co/image/ab6761610000f17876d47d16d18eb30413469512",
-                        "width": 160
-                    }
-                ],
-                "name": "Dave",
-                "popularity": 84,
-                "type": "artist",
-                "uri": "spotify:artist:6Ip8FS7vWT1uKkJSweANQK"
             }
         ],
-        "total": 7,
+        "total": 6,
         "limit": 50,
         "offset": 0,
-        "href": "https://api.spotify.com/v1/me/top/artists?limit=50&offset=0&time_range=short_term",
         "previous": null,
+        "href": "https://api.spotify.com/v1/me/top/artists?limit=50&offset=0&time_range=short_term",
         "next": null
     }
 ]
